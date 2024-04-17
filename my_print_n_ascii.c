@@ -2,9 +2,12 @@ void print_char(char c);
 
 void my_print_n_ascii(int n)
 {
-    for (int i = 32; i <= (32+n); i++)
+    if (n > 0)
     {
-        print_char(i);
+        for (int i = 32; i <= (32+n); i++)
+        {
+            print_char(i);
+        }
     }
 }
 
