@@ -9,9 +9,3 @@ void my_print_ascii(void)
         print_char(i);
     }
 }
-
-int main(void) 
-{
-    my_print_ascii();
-    return 0;
-}
