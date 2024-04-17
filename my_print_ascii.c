@@ -4,7 +4,7 @@ void my_print_ascii(void)
 {
     int p;
     p = 0;
-    for (int i = 33; i <= 126; i++)
+    for (int i = 36; i <= 126; i++)
     {
         print_char(i);
     }
