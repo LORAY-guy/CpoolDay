@@ -4,7 +4,6 @@ char *my_replace_char(char *origin, char toFind, char toReplace)
 {
     for (int i = 0; i <= sizeof(origin); i++)
     {
-        print_char(origin[i]);
         if (origin[i] == toFind)
         {
             origin[i] = toReplace;
