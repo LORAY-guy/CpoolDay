@@ -11,11 +11,11 @@ char *my_replace_char(char *origin, char toFind, char toReplace)
     }
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(int ac, char **av)
 {
     char str[] = "bienvenue à epitech !";
     printf("%s\n", my_replace_char(str, 'e', 'a'));
     return 0;
-}
+}*/
