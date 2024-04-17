@@ -4,13 +4,7 @@ void my_print_ascii(void)
 {
     int p;
     p = 0;
-    /*while (p <= 255)
-    {
-        print_char(p);
-        p++;
-    }*/
-
-    for (int i = 65; i <= 255; i++) 
+    for (int i = 65; i <= 126; i++) 
     {
         print_char(i);
     }
