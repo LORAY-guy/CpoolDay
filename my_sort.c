@@ -22,9 +22,9 @@ void my_sort(int *nlist, int size)
     }
 }
 
-int main(void)
+/*int main(void)
 {
     char list[6] = {-84, 42, -21, 21, -42, 84};
     my_sort(list, 6);
     return 0;
-}
+}*/
