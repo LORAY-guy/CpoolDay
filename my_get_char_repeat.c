@@ -1,6 +1,6 @@
 int my_get_char_repeat(char to_find, const char *to_search)
 {
-    if (to_search)
+    if (to_search > 0)
     {
         int num = 0;
         for (int i = 0; to_search[i] != 0; i++)
