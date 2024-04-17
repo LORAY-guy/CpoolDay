@@ -4,8 +4,14 @@ void my_print_ascii(void)
 {
     int p;
     p = 0;
-    for (int i = 65; i <= 126; i++) 
+    for (int i = 33; i <= 126; i++)
     {
         print_char(i);
     }
+}
+
+int main(void)
+{
+    my_print_ascii();
+    return 0;
 }
