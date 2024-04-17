@@ -2,17 +2,14 @@ void print_char(char c);
 
 void my_print_n_ascii(int n)
 {
-    if (n > 0)
+    for (int i = 32; i <= (32+n); i++)
     {
-        for (int i = 32; i <= (32+n); i++)
-        {
-            print_char(i);
-        }
+        print_char(i);
     }
 }
 
-/*int main(void)
+int main(void)
 {
-    my_print_n_ascii(5);
+    my_print_n_ascii(-2);
     return 0;
-}*/
+}
